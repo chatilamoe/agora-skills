@@ -13,8 +13,8 @@ Built by the World Bank Group Institute for Economic Development for AVA's Compu
 | `skills/research-playbook` | The method: which source for which question, the evidence log, how to cite, when to say "not found". Read first. |
 | `skills/worldbank-documents` | World Bank Documents & Reports, Open Knowledge Repository, Projects & Operations; PDF download |
 | `skills/worldbank-indicators` | World Bank indicators API (WDI and other sources): find an indicator, fetch tidy series |
-| `skills/imf-data` | The IMF's SDMX 2.1 API (WEO, IFS, FM, BOP and more); where IMF publications live |
-| `skills/dbnomics-macro` | DBnomics: 47,000 datasets from IMF, World Bank, OECD, ECB, Eurostat, ILO and others in one API |
+| `skills/imf-data` | The IMF's SDMX 2.1 API (WEO, CPI, ER, BOP, GFS and more; the legacy API and IFS are gone); where IMF publications live |
+| `skills/dbnomics-macro` | DBnomics: 47,000 datasets from IMF, World Bank, OECD, ECB, Eurostat, ILO and others in one API (check freshness; copies can lag) |
 | `skills/un-statistics` | UN SDG database, UNdata, UNESCO UIS, UNICEF, UNHCR, WHO, ILO, OECD, Eurostat, ECB, Our World in Data |
 | `skills/academic-literature` | OpenAlex, Crossref, Semantic Scholar, arXiv, CORE, NBER; open-access PDFs; working-paper series |
 | `skills/pdf-to-cited-text` | PDF to per-page text; find the page for a quote; verify claims |

@@ -27,8 +27,8 @@ Do not use for opinion pieces or when the user has given you the only sources th
 | Question | First skill | Then |
 |---|---|---|
 | What has the World Bank written on X | worldbank-documents | academic-literature (OpenAlex, prefix 10.1596) |
-| A World Bank indicator for a country or region | worldbank-indicators | dbnomics-macro (same data, one format) |
-| Macro series: GDP, inflation, fiscal, external | imf-data (WEO, IFS, FM, BOP) | dbnomics-macro, worldbank-indicators |
+| A World Bank indicator for a country or region | worldbank-indicators | dbnomics-macro (same data, one format, sometimes older) |
+| Macro series: GDP, inflation, fiscal, external | imf-data (WEO, CPI, ER, BOP, GFS; the old IFS is split across these) | dbnomics-macro for one-format access (its copies can lag the source by a year: use the provider's API for the latest vintage), worldbank-indicators |
 | Poverty, education, health, labour, refugees, trade, prices | un-statistics (SDG, UIS, WHO, ILO, UNHCR, OECD, Eurostat, ECB, OWID) | worldbank-indicators |
 | Peer-reviewed and working-paper evidence on X | academic-literature | worldbank-documents for Bank series |
 | IMF publications (working papers, Article IV) | academic-literature (Crossref/OpenAlex, prefix 10.5089) | the IMF eLibrary page for the PDF |

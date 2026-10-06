@@ -38,20 +38,20 @@
     {
       "name": "imf-data",
       "path": "skills/imf-data/SKILL.md",
-      "description": "IMF SDMX 2.1 API: WEO, IFS, FM, BOP and more; where IMF publications live.",
+      "description": "IMF SDMX 2.1 API (keyless): WEO with projections and past releases, CPI, exchange rates, reserves, money and interest rates, national accounts, BOP and IIP, trade by partner (IMTS), GFS, FM, GDD, FSI, FAS, commodity prices; where IFS and DOT went; how to find IMF publications (DOI prefix 10.5089).",
       "apis": [
         "api.imf.org/external/sdmx/2.1"
       ],
-      "status": "in progress"
+      "status": "available"
     },
     {
       "name": "dbnomics-macro",
       "path": "skills/dbnomics-macro/SKILL.md",
-      "description": "DBnomics: 47,000 datasets from IMF, World Bank, OECD, ECB, Eurostat, ILO and others in one API.",
+      "description": "DBnomics: about 47,000 datasets from 94 providers (IMF, World Bank, OECD, ECB, Eurostat, ILO, BIS, national statistics offices) in one keyless JSON API; search, dataset dimensions, series to tidy CSV; old WEO releases; copies can lag the source.",
       "apis": [
         "api.db.nomics.world/v22"
       ],
-      "status": "in progress"
+      "status": "available"
     },
     {
       "name": "un-statistics",
