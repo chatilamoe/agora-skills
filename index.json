@@ -1,0 +1,100 @@
+{
+  "name": "agora-skills",
+  "version": "0.1.0",
+  "updated": "2026-10-06",
+  "contact": "decaihub@worldbank.org",
+  "keys_required": false,
+  "start_with": "skills/research-playbook/SKILL.md",
+  "skills": [
+    {
+      "name": "research-playbook",
+      "path": "skills/research-playbook/SKILL.md",
+      "description": "The method: which source for which question, the evidence log, how to cite, when to say not found. Read first.",
+      "apis": [
+        "none"
+      ],
+      "status": "available"
+    },
+    {
+      "name": "worldbank-documents",
+      "path": "skills/worldbank-documents/SKILL.md",
+      "description": "World Bank Documents & Reports, Open Knowledge Repository, Projects & Operations; PDF download.",
+      "apis": [
+        "search.worldbank.org/api/v3/wds",
+        "openknowledge.worldbank.org/server/api",
+        "search.worldbank.org/api/v3/projects"
+      ],
+      "status": "in progress"
+    },
+    {
+      "name": "worldbank-indicators",
+      "path": "skills/worldbank-indicators/SKILL.md",
+      "description": "World Bank indicators API: find an indicator, fetch tidy series by country and year.",
+      "apis": [
+        "api.worldbank.org/v2"
+      ],
+      "status": "in progress"
+    },
+    {
+      "name": "imf-data",
+      "path": "skills/imf-data/SKILL.md",
+      "description": "IMF SDMX 2.1 API: WEO, IFS, FM, BOP and more; where IMF publications live.",
+      "apis": [
+        "api.imf.org/external/sdmx/2.1"
+      ],
+      "status": "in progress"
+    },
+    {
+      "name": "dbnomics-macro",
+      "path": "skills/dbnomics-macro/SKILL.md",
+      "description": "DBnomics: 47,000 datasets from IMF, World Bank, OECD, ECB, Eurostat, ILO and others in one API.",
+      "apis": [
+        "api.db.nomics.world/v22"
+      ],
+      "status": "in progress"
+    },
+    {
+      "name": "un-statistics",
+      "path": "skills/un-statistics/SKILL.md",
+      "description": "UN SDG database, UNdata, UNESCO UIS, UNICEF, UNHCR, WHO, ILO, OECD, Eurostat, ECB, Our World in Data.",
+      "apis": [
+        "unstats.un.org/SDGAPI",
+        "data.un.org/ws/rest",
+        "api.uis.unesco.org",
+        "sdmx.data.unicef.org",
+        "api.unhcr.org",
+        "ghoapi.azureedge.net",
+        "sdmx.ilo.org",
+        "sdmx.oecd.org",
+        "ec.europa.eu/eurostat/api",
+        "data-api.ecb.europa.eu",
+        "ourworldindata.org/grapher"
+      ],
+      "status": "in progress"
+    },
+    {
+      "name": "academic-literature",
+      "path": "skills/academic-literature/SKILL.md",
+      "description": "OpenAlex, Crossref, Semantic Scholar, arXiv, CORE, NBER; open-access PDFs; working-paper series.",
+      "apis": [
+        "api.openalex.org",
+        "api.crossref.org",
+        "api.semanticscholar.org",
+        "export.arxiv.org",
+        "api.core.ac.uk",
+        "nber.org/api",
+        "api.unpaywall.org"
+      ],
+      "status": "in progress"
+    },
+    {
+      "name": "pdf-to-cited-text",
+      "path": "skills/pdf-to-cited-text/SKILL.md",
+      "description": "PDF to per-page text; find the page for a quote; verify claims.",
+      "apis": [
+        "none"
+      ],
+      "status": "in progress"
+    }
+  ]
+}
