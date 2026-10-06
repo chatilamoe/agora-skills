@@ -24,7 +24,7 @@
         "openknowledge.worldbank.org/server/api",
         "search.worldbank.org/api/v3/projects"
       ],
-      "status": "in progress"
+      "status": "available"
     },
     {
       "name": "worldbank-indicators",
@@ -33,7 +33,7 @@
       "apis": [
         "api.worldbank.org/v2"
       ],
-      "status": "in progress"
+      "status": "available"
     },
     {
       "name": "imf-data",
@@ -85,7 +85,7 @@
         "nber.org/api",
         "api.unpaywall.org"
       ],
-      "status": "in progress"
+      "status": "available"
     },
     {
       "name": "pdf-to-cited-text",
@@ -94,7 +94,7 @@
       "apis": [
         "none"
       ],
-      "status": "in progress"
+      "status": "available"
     }
   ]
 }
