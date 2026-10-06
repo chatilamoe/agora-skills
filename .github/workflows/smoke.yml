@@ -1,0 +1,27 @@
+name: smoke tests
+
+on:
+  schedule:
+    - cron: "0 6 * * 1"   # Mondays 06:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Run every skill's smoke test
+        run: python3 tests/run_all.py || true
+      - name: Commit STATUS.md
+        run: |
+          git config user.name "agora-skills bot"
+          git config user.email "decaihub@worldbank.org"
+          git add STATUS.md
+          git diff --cached --quiet || git commit -m "Weekly endpoint status"
+          git push
