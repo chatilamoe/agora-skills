@@ -31,7 +31,7 @@ Do not use it for:
 | Script | Returns | Writes (under `--out`, default `./research`) |
 |---|---|---|
 | `wdi_find.py` | indicator codes that match keywords: code, source, name. With `--json` also the definition (`sourceNote`), source organization and topics | `cache/wb_indicators.json`; with `--source`, `cache/wb_indicators_source_<id>.json` |
-| `wdi_fetch.py` | values: one row per country and year | `data/wdi_<code>_<countries>_<period>.csv`, one line in `data_log.jsonl` per CSV |
+| `wdi_fetch.py` | values: one row per country and year | `data/wdi_<code>_<countries>_<period>.csv` (`_src<id>` added with `--source`), one line in `data_log.jsonl` per CSV |
 | `wdi_countries.py` | economies or aggregates: iso3, iso2, name, region, income group, lending type | `data/wb_countries*.csv`, one line in `data_log.jsonl`, `cache/wb_countries.json` |
 
 A `data_log.jsonl` line, as written by the quick start below:
@@ -76,7 +76,7 @@ python3 skills/worldbank-indicators/scripts/wdi_fetch.py FX.OWN.TOTL.ZS --countr
 python3 skills/worldbank-indicators/scripts/wdi_countries.py --region SAS
 ```
 
-1. The first call downloads the indicator list once (30 pages, about 40 s; later runs read the cache). It prints `FX.OWN.TOTL.ZS` and its breakdowns.
+1. The first call downloads the indicator list once (30 pages, 31 s in our runs; later runs read the cache). It prints `FX.OWN.TOTL.ZS` and its breakdowns.
 2. The second writes Nepal's account ownership for the Findex years: 2011 25.3, 2014 33.8, 2017 45.4, 2021 54.0 and 2024 60.0 percent of adults.
 3. The third lists the six South Asian economies with their income groups.
 
