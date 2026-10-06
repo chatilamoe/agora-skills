@@ -56,7 +56,7 @@
     {
       "name": "un-statistics",
       "path": "skills/un-statistics/SKILL.md",
-      "description": "UN SDG database, UNdata, UNESCO UIS, UNICEF, UNHCR, WHO, ILO, OECD, Eurostat, ECB, Our World in Data.",
+      "description": "UN SDG database, UNdata, UNESCO UIS, UNICEF, UNHCR, WHO, ILO, OECD, BIS, Eurostat, ECB, Our World in Data, and the keyless UN Comtrade preview.",
       "apis": [
         "unstats.un.org/SDGAPI",
         "data.un.org/ws/rest",
@@ -68,9 +68,11 @@
         "sdmx.oecd.org",
         "ec.europa.eu/eurostat/api",
         "data-api.ecb.europa.eu",
-        "ourworldindata.org/grapher"
+        "ourworldindata.org/grapher",
+        "stats.bis.org/api/v1",
+        "comtradeapi.un.org/public/v1/preview"
       ],
-      "status": "in progress"
+      "status": "available"
     },
     {
       "name": "academic-literature",

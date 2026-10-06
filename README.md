@@ -15,7 +15,7 @@ Built by the World Bank Group Institute for Economic Development for AVA's Compu
 | `skills/worldbank-indicators` | World Bank indicators API (WDI and other sources): find an indicator, fetch tidy series |
 | `skills/imf-data` | The IMF's SDMX 2.1 API (WEO, CPI, ER, BOP, GFS and more; the legacy API and IFS are gone); where IMF publications live |
 | `skills/dbnomics-macro` | DBnomics: 47,000 datasets from IMF, World Bank, OECD, ECB, Eurostat, ILO and others in one API (check freshness; copies can lag) |
-| `skills/un-statistics` | UN SDG database, UNdata, UNESCO UIS, UNICEF, UNHCR, WHO, ILO, OECD, Eurostat, ECB, Our World in Data |
+| `skills/un-statistics` | UN SDG database, UNdata, UNESCO UIS, UNICEF, UNHCR, WHO, ILO, OECD, BIS, Eurostat, ECB, Our World in Data, the keyless UN Comtrade preview |
 | `skills/academic-literature` | OpenAlex, Crossref, Semantic Scholar, arXiv, CORE, NBER; open-access PDFs; working-paper series |
 | `skills/pdf-to-cited-text` | PDF to per-page text; find the page for a quote; verify claims |
 
